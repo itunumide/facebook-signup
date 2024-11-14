@@ -18,9 +18,9 @@
         <input type="text" class="f name" placeholder="First name" />
         <input type="text" class="s name" placeholder="Surname" />
 
-        <label for="DOB">Date of birth ?</label>
+        <label class="label" for="DOB">Date of birth ?</label>
 
-        <select name="" id="">
+        <select class="dob" name="" id="DOB">
           <option selected value="">17</option>
           <option value="">18</option>
           <option value="">19</option>
@@ -32,8 +32,8 @@
           <option value="">25</option>
           <option value="">26</option>
         </select>
-        <select name="" id="">
-          <option value="">Jan</option>
+        <select class="dob" name="" id="">
+          <option class="yellow" value="">Jan</option>
           <option value="">Feb</option>
           <option value="">Mar</option>
           <option value="">Apr</option>
@@ -51,32 +51,41 @@
           <option value="" selected>2024</option>
         </select>
 
-        <span> Gender ?</span>
+        <span class="label"> Gender ?</span>
 
-        <label for="">Female</label>
-        <input type="radio" name="" id="" placeholder="Female" />
-        <label for="">Male</label
-        ><input type="radio" name="" id="" placeholder="Male" />
-        <label for="">Custom</label
-        ><input type="radio" name="" id="" placeholder="Custom" />
+        <span class="radio rad">
+          <input type="radio" name="" id="" placeholder="Female" />
+          <label for="">Female</label></span
+        >
+        <span class="radio rad">
+          <input type="radio" name="" id="" placeholder="Male" />
+          <label for="">Male</label></span
+        >
+        <span class="radio"
+          ><input type="radio" name="" id="" placeholder="Custom" />
+          <label for="">Custom</label>
+        </span>
+        <input
+          type="text"
+          class="input"
+          placeholder="Mobile number or email address"
+        />
 
-        <input type="text" placeholder="Mobile number or email address" />
-
-        <input type="text" placeholder="New password" />
-        <div>
-          <p>
+        <input type="text" class="input" placeholder="New password" />
+        <div class="policy">
+          <p class="first">
             People who use our service may have uploaded your contact
             information to Facebook. <a href="#">Learn more.</a>
           </p>
-          <p>
+          <p class="second">
             By clicking Sign Up, you agree to our
             <a href="#">Terms, Privacy Policy</a> and
             <a href="#">Cookies Policy.</a> You may receive SMS notifications
-            from us and can opt out at any time. /p>
+            from us and can opt out at any time.
           </p>
         </div>
         <button>Sign Up</button>
-        <h4><a href="#"></a>Already have an account</h4>
+        <h4 class="h4"><a href="#"></a>Already have an account</h4>
       </form>
     </div>
   </body>
