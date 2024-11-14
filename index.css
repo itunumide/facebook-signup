@@ -1,0 +1,29 @@
+body{
+    box-sizing: border-box;
+    
+}
+.container{
+    border: 2px solid;
+    width: 500px;
+    box-shadow: 0 0 10px gray;
+}
+header{
+    text-align: center;
+}
+form{
+    padding: 0 20px;
+    input{
+        border-radius: 5px;
+        height: 15px;
+        border: 1px solid;
+        padding: 5px;
+    }
+}
+.name{
+    width: 200px;
+    margin-bottom: 10px;
+
+}
+.f{
+    margin-right: 20px;
+}
